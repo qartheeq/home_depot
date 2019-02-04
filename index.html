@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Depot</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h2>Currency Converter</h2>
+    <div>
+      <h3>Type in amount and select currency</h3>
+      <div class="input-placeholder">
+        <input id="input-amount" type="number" />
+        <select id="input-currency">
+          <option>EUR</option>
+        </select>
+      </div>
+      <div class="input-placeholder">
+        <div>Converted Amount :</div>
+        <input disabled="true" id="output-amount" />
+        <select id="output-currency" onchange="convert()">
+          <option>CAD</option>
+          <option>USD</option>
+          <option>EUR</option>
+        </select>
+      </div>
+    </div>
+    <a class="convert-button" href="https://fixer.io/documentation"
+      >Disclaimer</a
+    >
+  </body>
+</html>

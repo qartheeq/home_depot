@@ -1,0 +1,21 @@
+{
+  "name": "home_depot",
+  "version": "1.0.0",
+  "description": "home_depot_app",
+  "main": "main.js",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "author": "Karthik",
+  "license": "ISC"
+}

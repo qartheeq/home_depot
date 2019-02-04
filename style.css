@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  padding: 0px 10px;
+}
+
+.input-placeholder {
+  padding: 10px;
+}
+
+.input-placeholder input {
+  padding: 5px;
+  width: 120px;
+}
+
+.input-placeholder select {
+  height: 25px;
+  width: 75px;
+}
+
+.convert-button {
+  margin-left: 150px;
+}
+/*# sourceMappingURL=style.css.map */
